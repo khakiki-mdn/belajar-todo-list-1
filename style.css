@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.tombol {
+  width: 100px;
+  height: 25px;
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 25px;
+  margin: 20px auto 10px;
+}
+
+.tombol:hover {
+  cursor: pointer;
+}
+
+.todo-container {
+  width: 250px;
+  border: 2px solid green;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.tombol-tambah {
+  border: 1px solid black;
+  width: 100px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  margin: 5px auto;
+  border-radius: 5px;
+}
+
+input.inputan {
+  text-align: center;
+  text-transform: capitalize;
+  margin: 0 auto;
+  font-size: 15px;
+  border-radius: 7px;
+  color: green;
+}
+
+div.untuk-input {
+  margin: 10px auto;
+  width: 175px;
+}
+
+li {
+  border: 1px solid green;
+  box-shadow: 5px 0 3px grey;
+  width: 150px;
+  list-style-type: none;
+  padding: 5px 0 5px 10px;
+  margin: 0 0 10px 5px;
+}
+
+@media screen and (min-width: 480px) {
+  .todo-container {
+    width: 500px;
+  }
+  li {
+    width: 400px;
+  }
+}
